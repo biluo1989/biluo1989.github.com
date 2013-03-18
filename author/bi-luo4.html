@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>如是我闻 - 碧落</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../theme/css/main.css" type="text/css" />
+                <link href="FEED_DOMAIN = http://www.example.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="如是我闻 Atom Feed" />
+                
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie.css"/>
+                <script src="../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">如是我闻 </a></h1>
+                <nav><ul>
+                                                                    <li><a href="../pages/liao-jie-wo.html">了解我</a></li>
+                                                                    <li ><a href="../category/life.html">Life</a></li>
+                                    <li ><a href="../category/si.html">思</a></li>
+                                    <li ><a href="../category/zhu.html">术</a></li>
+                                    <li ><a href="../category/dao.html">道</a></li>
+                                </ul></nav>
+        </header><!-- /#banner -->
+                
+            
+
+                 
+                            <section id="content" class="body">
+                    <ol id="posts-list" class="hfeed" start="9">
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../love-and-life.html" rel="bookmark"
+                           title="Permalink to Love and Life">Love and Life</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2099-12-31T00:00:00">
+                四 31 十二月 2099
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/life.html">Life</a>. </p>
+
+</footer><!-- /.post-info -->                <p><br>
+爱是恒久忍耐，又有恩慈；爱是不嫉妒，爱是不自夸，不张狂，不作害羞的事，</p>
+<p>不求自己的益处，不轻易发怒，不计算人的恶，不喜欢不义，只喜欢真理；</p>
+<p>凡事包容，凡事相信，凡事盼望，凡事忍耐。</p>
+<p>爱是永不止息。</p>
+<p>Love is patient, love is kind, it does not envy, it does not boast, it is not proud. </p>
+<p>It is not rude, it is not self-seeking, it is not easily angered, it keeps no ...</p>
+                <a class="readmore" href="../love-and-life.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../pelicande-qian-shi-jin-sheng-yi.html" rel="bookmark"
+                           title="Permalink to pelican的前世今生（译）">pelican的前世今生（译）</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2013-02-21T00:00:00">
+                四 21 二月 2013
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/zhu.html">术</a>. </p>
+<p>tags: <a href="../tag/python.html">python</a></p>
+</footer><!-- /.post-info -->                <p><a href="http://pelican-zh.readthedocs.org/en/latest/report/">原文地址</a></p>
+<p>Pelican是一个简单的静态博客生成器。它分析由Markdown或是reStructuredText写就的标记语言文档，并产生一个包括了建博客所需的所有HTML文件的文件夹。考虑到Python语言较为简单且能满足我的所有需求，我选择了它来开发Pelican。我并不想为每一样事物都定义一个类(class)，但仍希望所有东西都能宽松的耦合。结果证明这正是我想要的。也要感谢一些用户们时不时的极有价值的反馈，我每次都只需很少的时间来修复一些bug。到目前为止，我已经彻底重构了Pelican的代码两次，每次都不到30分钟。</p>
+<p><strong>Pelican的方案</strong></p>
+<p>早先，我是WordPress用户，WordPress是用PHP语言开发的博客平台，支持在PHP和MySQL的服务器上架设并管理自己的博客。大多数时候，我更喜欢用诸如Markdown、reStructuredText这样的标记语言来写文章，还有，我都是用vim来写的！我觉得让人们有选择他们自己喜欢的文本编辑器来写文章的自由是非常重要的！在我看来，一个博客管理器只要能把无论什么格式的输入文件转化成一个博客这件事做好就可以了。这就是Pelican的用途，可以让你选择你钟爱的任何编辑器，使用你想用的标记语言，来生成一个静态的HTML博客站点。 </p>
+<p><img alt="pelican" src="http://pelican-zh.readthedocs.org/en/latest/_images/overall.png" /></p>
+<p>出于足够灵活的考虑，Pelican提供模板支持，只要你想要，便能轻松地写出你自己的模板。</p>
+<p><strong>设计过程</strong></p>
+<p>Pelican 来自我个人的需求，起初，它只是只有一个文件的程序，渐渐的，它已经茁壮成长成现在这样了。最初，我写下我希望能够实现的功能，然后写了一个reStructuredText文件来作为语法分析的测试用例，并开始反复试验和修改代码。当Pelican第一次可用时，它有200行代码，包含了差不多10个函数和一个类 ...</p>
+                <a class="readmore" href="../pelicande-qian-shi-jin-sheng-yi.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../ren-ren-du-neng-yong-ying-yu.html" rel="bookmark"
+                           title="Permalink to 人人都能用英语">人人都能用英语</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-05-20T00:00:00">
+                日 20 五月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/zhu.html">术</a>. </p>
+<p>tags: <a href="../tag/du-shu.html">读书</a></p>
+</footer><!-- /.post-info -->                <p>李笑来老师是一位真正的老师，现在老师这个词已大大贬值，我说的“老师”是“老师”的真正含义。</p>
+<p>《人人都能用英语》，书名听起来很普通，但却是我看过的同类书籍中最好的书。</p>
+<p>在开场白中笑来告诉我们“除非有外来者带来其他领域的知识与经验，任何一个领域都不可能大幅度进步。”于是乎，一本关于英语学习的书要从别处谈起。从科学的角度来看，大脑的可塑性极强，大脑是一个“用进废退”的机器。过去十分流行的大脑区域论是错误的（至少不是完全正确的），大脑可以重新组织自己。而为什么成年之后，第二语言的学习变得很困难呢？这位是由于第二语言所使用的脑图要与已形成强大势力的母语的脑图进行竞争。学习这件事是，相信自己一定能学好并不保证自己一定能学好：但反过来，相信自己不可能学好，那最终一定不会学好。这就是所谓的“自证预言”，总是在负面起作用。一个简单的例子来说明自证预言：一家银行本来运作得好好的，但不知怎么就有谣言说这家银行要倒闭了。流言越穿越广，越来越多的人开始信以为真，开始有人跑到银行把自己的存款提走；进而恐慌开始散布，并且变得真实，更多的人跑到银行提走自己的存款……最终，挤兑发生了，银行倒闭了。</p>
+<p>教育实际上是自己的事。自己早一天觉悟，就早一天挣脱枷锁，就多一天的自由 ...</p>
+                <a class="readmore" href="../ren-ren-du-neng-yong-ying-yu.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../rework-and-getting-real-zhai-lu.html" rel="bookmark"
+                           title="Permalink to 《rework》 and 《getting real》摘录">《rework》 and 《getting real》摘录</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-09-26T00:00:00">
+                三 26 九月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/zhu.html">术</a>. </p>
+<p>tags: <a href="../tag/du-shu.html">读书</a></p>
+</footer><!-- /.post-info -->                <ul>
+<li>现实世界</li>
+</ul>
+<p>“这在现实世界里面行不通”，当你向人们介绍一个新创意时，人们总是这么回答你。这个“现实世界”听起来如此令人沮丧，……只有人耳熟能详，习以为常的事情才会胜利，即使是这些事情已经漏洞百出陈腐低效。</p>
+<p>揭开“现实世界”这个锅盖，你会发现居住在里的人都充斥着悲观主义和失望的情绪。更糟的是，他们想将别人拖进他们的坟墓。如果你是充满希望和野心的人，他们会试着说服你，你的想法是不可能的。他们会说你在浪费时间。</p>
+<p>“现实世界”并不存在，那只是人的一个借口。只是某些人为了开脱 自己的无所作为，跟你一点关系也没有。</p>
+<ul>
+<li>被高估的“从错误中学习”</li>
+</ul>
+<p>你真的从错误和失败里面学到什么了吗？你也许学到了别再重蹈覆辙，但是这有什么意义吗？你仍然不知道接下来该做什么。</p>
+<p>相反的应该从成功中汲取养分。成功給予真正靠得住的教材。</p>
+<p>失败并不是成功的先决条件。自然规律是，逗留在过去的失败中是无法进化的，进化是建立在成功的基础上的。</p>
+<p>眼界。另外，你应该多想想你过去做成功过什么事？那些才是你的长处，才是让你进化的前提。</p>
+<ul>
+<li>计划就是瞎猜</li>
+</ul>
+<p>除非你是算命先生，长期的商业计划是种幻想。有太多的事实证明那是超出你的掌控的：市场环境、对手、顾客 ...</p>
+                <a class="readmore" href="../rework-and-getting-real-zhai-lu.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../shi-ren-li-er-ke.html" rel="bookmark"
+                           title="Permalink to 诗人里尔克">诗人里尔克</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-04-23T00:00:00">
+                一 23 四月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/dao.html">道</a>. </p>
+<p>tags: <a href="../tag/du-shu.html">读书</a></p>
+</footer><!-- /.post-info -->                <p>书名为《给青年诗人的信》，从里尔克回给卡卜斯的第一封信算起，他还不满三十岁，但心境已经是阅尽千帆后回归纯朴的状态。引用其中的一句话来表达对这本书的敬意：我们只在那些书中享受日深，感激日笃，观察更为明确而单纯，对于生的信仰更为深沉，在生活里也更幸福博大。</p>
+<p><strong>里尔克谈诗歌</strong></p>
+<blockquote>
+<p>为了一首诗我们必须观看许多城市，观看许多人和物，我们必须认识动物，我们必须去感受鸟怎样飞翔，知道小小的花朵在早晨开放的姿态。我们必须能够回想：异乡的路途，不期的相遇，逐渐临近的分离；回想那些已经不清楚的童年岁月，想到儿童的疾痛，病症离奇地发作，想到寂静沉闷的小屋的白昼和海滨的早晨，想到许多海，想到旅途之夜，在这些夜里万籁齐鸣，群星飞舞。可是这还不够，如果这一切都能够想得到，我们必须回忆许多爱情的夜，一夜与一夜不同。我们还有陪伴过的临死的人，坐在死者的身边，在窗子开着的小屋里有些突如其来的声音。我们有回忆，也还不够。如果回忆太多，我们必须能够忘记，我们要有大的忍耐力等着他们再来。等着他们成为我们身内的血、我们的目光和姿态，直到和我们再也不能区分。</p>
+</blockquote>
+<p><strong>里尔克谈爱</strong></p>
+<blockquote>
+<p>爱，很好；因为爱是艰难的。以人去爱人：这也许是给与我们的最艰难 ...</p></blockquote>
+                <a class="readmore" href="../shi-ren-li-er-ke.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../sui-ji-lisp.html" rel="bookmark"
+                           title="Permalink to 随记Lisp">随记Lisp</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-07-02T00:00:00">
+                一 02 七月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/zhu.html">术</a>. </p>
+<p>tags: <a href="../tag/lisp.html">lisp</a></p>
+</footer><!-- /.post-info -->                <p>看完《黑客与画家》，受到YC的老大的鼓动，学了一段时间的Lisp，当然，Lisp是一种编程语言，是第二古老的编程语言。它不仅在50多年前诞生的时候带来了诸多革命性的创新并极大地影响了后来编程语言的发展，即使在一大批现代语言不断涌现的今天，Lisp的诸多特性仍然未被超越。</p>
+<p>Lisp诞生的时候，就包含了九种新思想：</p>
+<ul>
+<li>条件结构（即"if-then-else"结构）。现在大家都觉得这是理所当然的，但是Fortran I就没有这个结构，它只有基于底层机器指令的goto结构。</li>
+<li>函数也是一种数据类型。在Lisp语言中，函数与整数或字符串一样，也属于数据类型的一种。它有自己的字面表示形式（literal representation），能够储存在变量中，也能当作参数传递。一种数据类型应该有的功能，它都有。</li>
+<li>递归。Lisp是第一种支持递归函数的高级语言。</li>
+<li>变量的动态类型。在Lisp语言中，所有变量实际上都是指针，所指向的值有类型之分，而变量本身没有。复制变量就相当于复制指针，而不是复制它们指向的数据。</li>
+<li>垃圾回收机制。</li>
+<li>程序由表达式（expression）组成。Lisp程序是一些表达式区块的集合，每个表达式都返回一个值。这与Fortran和大多数后来的语言都截然不同，它们的程序由表达式和语句（statement）组成 ...</li></ul>
+                <a class="readmore" href="../sui-ji-lisp.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../tie-ren-tie-sheng.html" rel="bookmark"
+                           title="Permalink to 铁人铁生">铁人铁生</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2013-02-12T00:00:00">
+                二 12 二月 2013
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/si.html">思</a>. </p>
+<p>tags: <a href="../tag/yi-ren.html">忆人</a></p>
+</footer><!-- /.post-info -->                <p>想写史铁生了。春节期间看见人家门上贴着红色的对联，也有人家贴着绿色的对联，其实生生死死原本就是无法逃避的事情，即使是所有人都想欢度的春节。急着写史铁生，是因为感觉到一种恐慌。我害怕，他走了，留下了一种巨大的不在场，而这种不在场会扩大，再扩大，直到带走了一个时代，一个时代的精神。</p>
+<p>加缪说，在一个生命结束时，人发现他花费了那么多仅仅是去证实一个真理，但如果这个真理是清晰的，它就足以驾驭一个存在。铁人用尽了自己的一生去证实人为什么活着、活着的意义和生命的尊严。人是为意义活着的，不是为活着而活着。</p>
+<p>认知的黎明只能从精神的黑夜里升起，越是绝望越是黑暗的夜，紧跟其后的黎明越是光亮。失去双腿饱受病痛的折磨，铁人从不知道明天在哪里，从我还要活着吗，走向活着的意义，走向死亡是一个盛大的节日。</p>
+<p>尼采曾经说：＂显然，天上地下最重要的就是长久地忍受，并且是向着同一个方向，长此以往，就会导致在这个大地上的某些值得经历的东西，这就是某种改变着的东西，某种被精心加工过的，疯狂的或是富有神灵的东西。＂我把这种改变着的东西称之为精神的奇迹。</p>
+<p>铁人常常告诉自己，人的残缺是为了映照神的完美。他接受了肉体的残缺，精神之门打开了。高深莫测的哲学从他那里走下殿堂，变成最简单最平凡的不平凡。我不愿讲述所有的出处，因为那些艰深的出处已经被铁人用亲身经历实践体验再打磨出惊人的光泽。</p>
+<p>史铁生说过 ...</p>
+                <a class="readmore" href="../tie-ren-tie-sheng.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../wo-de-chuan-chang-jiao-gei-wo.html" rel="bookmark"
+                           title="Permalink to 我的船长教给我">我的船长教给我</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-07-14T00:00:00">
+                六 14 七月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/life.html">Life</a>. </p>
+<p>tags: <a href="../tag/guan-ying.html">观影</a></p>
+</footer><!-- /.post-info -->                <p><img alt="死亡诗社" src="http://img3.douban.com/view/photo/photo/public/p456530129.jpg" /></p>
+<p>自由、信仰、勇气、爱，我的船长教给我。</p>
+<p>第一节课，倾听逝者的声音，“Ceize the day！”船长引用惠特曼和梭罗的诗句。“当我步入丛林，因为我希望生活有意义，我要生活深深地把生命的精髓都吸到。”生活是那样可爱，有人说“怎么过都是一种浪费”，我不太明白这句话的意思，生活是用来过的，生命是用来体验的，Ceize the day，怎么过都不是一种浪费。</p>
+<p>第二节课，撕掉课本，撕掉内心固有的教条，撕掉这个社会的评价系统。</p>
+<p>的三节课，站在桌子上，换一个角度看世界。世界是多元的，任何角度都能看到美丽的风景，只要你愿意选择角度和选择美。</p>
+<p>第四节课，身处集体中，渐渐被集体、社会、体制同化了那颗特立独行的心。No，走少有人走的路，做特立独行的自己。破除恐惧，突破自我。</p>
+<p>又记起一次柴静谈到自己的生时说，至今仍租住在一室一厅的房子里，有书桌，有音乐。还说到自己小时候会在周末去树林里“感受孤独 ...</p>
+                <a class="readmore" href="../wo-de-chuan-chang-jiao-gei-wo.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../ying-xiong-de-wan-ge.html" rel="bookmark"
+                           title="Permalink to 英雄的挽歌">英雄的挽歌</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-08-29T00:00:00">
+                三 29 八月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/life.html">Life</a>. </p>
+
+</footer><!-- /.post-info -->                <p><img alt="英雄的挽歌" src="http://ww4.sinaimg.cn/mw690/49441707jw1dwdvti5x0dj.jpg" /></p>
+<p>终于陪蝙蝠侠走到了最后，英雄的故事落幕了，就像王子和公主一样，最后英雄过上了幸福的生活。</p>
+<p>结局总是偶然的，英雄之所以是英雄，是因为英雄做了什么，而不是英雄成为了什么。这是英雄的挽歌，真正的英雄从来都是不被理解的，追求的也不是人们最后的理解。因为电影外的我们拥有的事上帝视角，我们知道事情的经过，我们知道事情的结局，我们看的到一次有一次选择背后的痛苦，我们知道英雄经过了怎样的历练。可是电影里的故事会换一个背景同样发生在电影外，此时我们都变成了一个又一个的亲历者，一个又一个的群众演员，或者一个又一个的主角。当我们脱离了上帝视角后，我们还会怎么看待我们的英雄。此时的我们会只看到故事的表象，而且看到的表象会各个不同，真实留在了历史中，却很可能不会留在我们的眼中和心中。</p>
+<p>瑞秋说：“It’s not who you are underneath, but it’s what you do that defines you.”你真正是谁并不重要，重要的是你的所做所为。我们的蝙蝠侠韦恩就是这样实践曾经的挚爱说过的话的。当韦恩化身蝙蝠侠的时候，老管家说：“我之所以没有把你送到精神病院，而是支持你出去 ...</p>
+                <a class="readmore" href="../ying-xiong-de-wan-ge.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="../yong-bu-tun-se-de-qing-chun.html" rel="bookmark"
+                           title="Permalink to 永不褪色的青春">永不褪色的青春</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-06-09T00:00:00">
+                六 09 六月 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="../author/bi-luo.html">碧落</a>
+        </address>
+        <p>In <a href="../category/life.html">Life</a>. </p>
+<p>tags: <a href="../tag/guan-ying.html">观影</a></p>
+</footer><!-- /.post-info -->                <p><img alt="阳光灿烂的日子" src="http://img3.douban.com/view/photo/photo/public/p967457079.jpg" /></p>
+<p>马小军的青春故事，或者说成长故事，虽然发生在那个年代，但或多或少也能发现我们这一代的影子，算算时间应该相差20多年吧。</p>
+<p>在课堂上玩小把戏戏弄老师，终日无聊配万能钥匙、打群架、暗恋、追女孩子……</p>
+<p>除去时代的背景，谁的青春不是血流成河？</p>
+<p>马小军，内心渴望自己是个英雄，在回忆中篡改了自己的记忆，无论青春多惨烈、多无奈，回忆时总是要披上一层色彩。他执迷于虚无的英雄主义：在镜子前耀武扬威，冒着生命危险爬上烟囱顶端，只是为了吸引米兰的注意；崇拜列宁式的英雄。他怀着虚无的感情：在米兰的床上捡起一根长发时专注而幸福的表情，他将米兰挂在床边的照片想象成穿着泳装的时候，马小军们的梦想一片虚无。最后少年时代的马小军在游泳池中想要爬上岸是，每一次接近岸边就有几条腿把他踹回水里，在优雅的音乐“配合”下，一次次徒劳的努力……这才是现实的象征。</p>
+<p>回忆自己又有些什么。和邻院小伙伴玩耍的日子是小学前，玩角色扮演，小学后主要限于同班同学，稍大一点后是电子游戏，再后来初中了、高中了、大学了，一点都不好玩了。长大，得到许多的同时，也失去很多，这也是古老的人生哲理。</p>
+                <a class="readmore" href="../yong-bu-tun-se-de-qing-chun.html">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            </ol><!-- /#posts-list -->
+                            <p class="paginator">
+                        <a href="../author/bi-luo3.html">&laquo;</a>
+                Page 4 / 5
+            <a href="../author/bi-luo5.html">&raquo;</a>
+    </p>
+                        </section><!-- /#content -->
+                    <section id="extras" class="body">
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="FEED_DOMAIN = http://www.example.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://weibo.com/biluo1989">weibo.com</a></li>
+                                                    <li><a href="http://www.douban.com/people/biluo1989/">My douban</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+         <!--       <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+ </body>
+</html>
