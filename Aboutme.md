@@ -25,9 +25,10 @@
 -
 **专业优势**
 
-+ 熟悉python，懂C/C++、java、及Web前端技术，使用过Django，<br>
++ 熟悉python，略懂C/C++、java、及Web前端技术。<br>
++ 学习过Flask、Django框架
 + 长期在linux平台下学习，较为熟悉<br>
-+ 可熟练使用 github
++ 可熟练使用 git
 
 **语言优势**
 
@@ -44,9 +45,10 @@
 
 **主要项目经历**
 
-+ 2012年大学生创新项目：《段距离无限输电系统》。 担任负责人，获学校最佳奖项。此为[结题答辩ppt](http://vdisk.weibo.com/s/u7vch) 
++ 2012年大学生创新项目：《段距离无限输电系统》。 担任负责人，获学校最佳奖项。此为[结题答辩ppt](http://vdisk.weibo.com/s/u7vch)
 + 最近在做“高斯马尔可夫随机场图像去噪”，代码[在此](https://github.com/biluo1989/G_mrf)。
 + 博客基于[Pelican](https://github.com/getpelican/pelican)修改搭建。
++ 最近在学习flask web框架，阅读并理解了许多相关的代码。做了一个简单[网络收藏夹](https://github.com/biluo1989/collections)
 
 自我评价
 -
@@ -61,4 +63,3 @@
 + 毕竟只是应届毕业生，实践经验不足，技术水平距牛人的水准还很远很远。但是我还是要说一句：我有强烈学习的心。
 
 *简历只能够有限地了解一个人，更多信息可看我的[博客](http://rushiwow.com/)和[微博](http://weibo.com/biluo1989)*
-
