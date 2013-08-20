@@ -6,7 +6,7 @@
 + 男
 + 生于1989年5月
 + 河北石家庄人<br><br>
-+ 我的旧博客: [http://biluo1989.github.com/](http://biluo1989.github.com/)  如是我闻
++ <del>我的旧博客: [http://rushiwow.com/](http://rushiwow.com/)  如是我闻</del> [域名已过期正在转移中]
 + 新技术博客: [http://biluo1989.github.io/](http://biluo1989.github.io/) 如是我闻
 + 我的微薄：[http://weibo.com/biluo1989](http://weibo.com/biluo1989) @碧落
 <br>
@@ -42,7 +42,7 @@
 
 + 对互联网较为了解，略懂互联网产品。 喜欢的网站有Google、豆瓣、知乎……
 + 知识涉猎面很广，心理学、社会学、哲学、物理学、数学、教育学、甚至宗教，均有接触
-+ 有一定的文字功底，坚持记录所思所想及读书笔记，我的[博客](http://biluo1989.github.com//)上有部分分享
++ 有一定的文字功底，坚持记录所思所想及读书笔记，我的[博客](http://rushiwow.com//)上有部分分享
 + 较强的学习能力，信奉现代社会中大部分的知识和技能是由自我教育所获得
 
 **主要项目经历**
@@ -64,4 +64,4 @@
 
 + 毕竟只是应届毕业生，实践经验不足，技术水平距牛人的水准还很远很远。但是我还是要说一句：我有强烈学习的心。
 
-*简历只能够有限地了解一个人，更多信息可看我的[博客](http://biluo1989.github.com/)和[微博](http://weibo.com/biluo1989)*
+*简历只能够有限地了解一个人，更多信息可看我的[博客](http://rushiwow.com/)和[微博](http://weibo.com/biluo1989)*
