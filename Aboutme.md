@@ -6,7 +6,8 @@
 + 男
 + 生于1989年5月
 + 河北石家庄人<br><br>
-+ 我的博客：[http://rushiwow.com/](http://rushiwow.com/)  如是我闻
++ 我的旧博客: [http://biluo1989.github.com/](http://biluo1989.github.com/)  如是我闻
++ 新技术博客: [http://biluo1989.github.io/](http://biluo1989.github.io/) 如是我闻
 + 我的微薄：[http://weibo.com/biluo1989](http://weibo.com/biluo1989) @碧落
 <br>
 
@@ -29,26 +30,27 @@
 + 学习过Flask、Django框架
 + 长期在linux平台下学习，较为熟悉<br>
 + 可熟练使用 git
++ 八月初希望开始转向iOS，学习中……
 
 **语言优势**
 
 + 英语六级，基本无障碍阅读技术文档
 + 另外平时喜欢读英文原版书籍
-+ 热衷于语言学习，正在自学日语中，未来几年可能的话会学习德、法、意
++ 热衷于语言学习，自学过日语中，未来几年可能的话会学习德、法、意
 
 **软优势**
 
 + 对互联网较为了解，略懂互联网产品。 喜欢的网站有Google、豆瓣、知乎……
 + 知识涉猎面很广，心理学、社会学、哲学、物理学、数学、教育学、甚至宗教，均有接触
-+ 有一定的文字功底，坚持记录所思所想及读书笔记，我的[博客](http://rushiwow.com/)上有部分分享
++ 有一定的文字功底，坚持记录所思所想及读书笔记，我的[博客](http://biluo1989.github.com//)上有部分分享
 + 较强的学习能力，信奉现代社会中大部分的知识和技能是由自我教育所获得
 
 **主要项目经历**
 
 + 2012年大学生创新项目：《段距离无限输电系统》。 担任负责人，获学校最佳奖项。此为[结题答辩ppt](http://vdisk.weibo.com/s/u7vch)
-+ 最近在做“高斯马尔可夫随机场图像去噪”，代码[在此](https://github.com/biluo1989/G_mrf)。
 + 博客基于[Pelican](https://github.com/getpelican/pelican)修改搭建。
-+ 最近在学习flask web框架，阅读并理解了许多相关的代码。做了一个简单[网络收藏夹](https://github.com/biluo1989/collections)
++ 学习flask web框架时，阅读并理解了许多相关的代码。做了一个简单[网络收藏夹](https://github.com/biluo1989/collections)
++ 8月初开始，希望转向iOS，正在全力学习iOS中，做了一些简单的[Demo](https://github.com/biluo1989)
 
 自我评价
 -
@@ -62,4 +64,4 @@
 
 + 毕竟只是应届毕业生，实践经验不足，技术水平距牛人的水准还很远很远。但是我还是要说一句：我有强烈学习的心。
 
-*简历只能够有限地了解一个人，更多信息可看我的[博客](http://rushiwow.com/)和[微博](http://weibo.com/biluo1989)*
+*简历只能够有限地了解一个人，更多信息可看我的[博客](http://biluo1989.github.com/)和[微博](http://weibo.com/biluo1989)*
